@@ -1,6 +1,6 @@
 # Tamid Tech Consulting Track Application
 ---
-**Overview:**
+### Overview:
 
 This project is a web application that has been created for the sole intention to go along with TAMID at Indiana Univerity's application to the Tech Consulting Track. The prompt for this project was to create a URL shortener that takes long URLS as input, and gives shorter ones as output e.g.
 * Long URL: https://facebook.com/user/12341aksdljkadasjkdasdasdjk
@@ -23,7 +23,7 @@ _Flask_ is a python microframework that is used to develop web applications. It 
 
 _SQLAlchemy_ is a library that facilitates the communication between Python programs and databases.
 ___
-**Breakdown of Code from app.py:**
+### Breakdown of Code from app.py:
 - These are a variety of libraries we have imported that conatain bundles of code to be used repeatedly.
 ```python
 from flask import Flask, redirect, render_template, request, url_for
@@ -110,7 +110,7 @@ def redirection(short_url):
         return f'<h1>URL Does Not Exist</h1>'
 ```
 ---
-**Breakdown of HTML Files:**
+### Breakdown of HTML Files:
 
 A templates file must be created for the Flask program to be able to render our files to minimize unnecessary coding.
 - The base.html file contains the code that will serve as a _base_ template for the rest of the HTML files. We can keep consistency with our files by using "block"s which we can extend throughout other files. This enables us to only change certain elements within the block to take out repetitive code.
@@ -149,7 +149,7 @@ A templates file must be created for the Flask program to be able to render our 
 </form>
 ```
 ---
-**Reflection:**
+### Reflection:
 
 After the completion of this project I feel that our core members are ready to handle a variety of challenges in a tech environment. We possess members with experience of both front-end and back-end knowledge equipping us with a fullstack team.
 
