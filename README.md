@@ -1,7 +1,7 @@
 # Tamid Tech Consulting Track Application
 **Overview:**
 
-This is project is a web application has been created for the sole intention to go along with TAMID at Indiana Univerity's application to the Tech Consulting Track. The prompt for this project was to create a URL shortener’s job takes long URLS as input, and gives shorter ones as output e.g.
+This project is a web application that has been created for the sole intention to go along with TAMID at Indiana Univerity's application to the Tech Consulting Track. The prompt for this project was to create a URL shortener that takes long URLS as input, and gives shorter ones as output e.g.
 * Long URL: https://facebook.com/user/12341aksdljkadasjkdasdasdjk
 * Short URL: https://tamid-url-shortner.com/tamid-user
 ___
