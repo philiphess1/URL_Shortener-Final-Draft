@@ -6,14 +6,14 @@ This project is a web application that has been created for the sole intention t
 * Long URL: https://facebook.com/user/12341aksdljkadasjkdasdasdjk
 * Short URL: https://tamid-url-shortner.com/tamid-user
 ___
-**Languages/Frameworks Used:**
+### Languages/Frameworks Used:
 - Python 3.10.5
 - Flask 2.0
 - HTML5
 - Bootstrap 5.2
 - SQLAlchemy 1.4
 ---
-**Installations:**
+### Installations:
 
 Below is the code for the framework and database
 ```
