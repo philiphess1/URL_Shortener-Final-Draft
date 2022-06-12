@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Tiny URL{% endblock %}
+
+{% block content %}
+<form action="#", method="post">
+    <div class="form">
+        <label for="url">Enter an https:// URL:</label>
+
+        <input type="url" name="nm" id="url"
+        placeholder="https://example.com"
+        pattern="https://.*" size="50"
+        required>
+        <br>
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </div>
+</form>
+{% endblock %}
